@@ -1,12 +1,12 @@
-#Fri Jul 28 15:01:41 BST 2023
+#Tue Aug 01 10:41:03 BST 2023
 path.3=14/classes.dex
 path.2=13/classes.dex
 path.1=0/classes.dex
 path.0=classes.dex
-base.3=/Users/itconsultant/Desktop/React.ND/new/AwesomeProject/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex
-base.2=/Users/itconsultant/Desktop/React.ND/new/AwesomeProject/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex
-base.1=/Users/itconsultant/Desktop/React.ND/new/AwesomeProject/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.0=/Users/itconsultant/Desktop/React.ND/new/AwesomeProject/android/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.3=/Users/itconsultant/Desktop/React.ND/ITC_RN/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex
+base.2=/Users/itconsultant/Desktop/React.ND/ITC_RN/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex
+base.1=/Users/itconsultant/Desktop/React.ND/ITC_RN/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.0=/Users/itconsultant/Desktop/React.ND/ITC_RN/android/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
