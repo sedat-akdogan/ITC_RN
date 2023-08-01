@@ -5,19 +5,23 @@ import AnyClass from './src/components/Practice';
 import MyButton from './src/components/Button';
 import MyPractice from './src/components/Practice';
 import TuesdayLesson from './src/components/TuesdayLesson';
-import { View } from 'react-native';
+import { SafeAreaView, View } from 'react-native';
+import LevelOne from './src/components/LevelOne';
 
 
 function App() {
   return (
-    <View>
-      <MyPractice />
-      <TuesdayLesson />
-    {/* // <MyButton />
+    <SafeAreaView style={{flex: 1, backgroundColor: "red", flexDirection: "row"}}>
+      {/* <MyPractice /> */}
+      {/* <TuesdayLesson /> */}
+      <LevelOne />
+      <LevelOne />
+      <LevelOne />
+      {/* // <MyButton />
     // < AnyClass />
     // <MyComponent />
     // <Class /> */}
-    </View>
+    </SafeAreaView>
   );
 }
 
