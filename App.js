@@ -6,7 +6,8 @@ import React from 'react';
 // import MyPractice from './src/components/Practice';
 // import TuesdayLesson from './src/components/TuesdayLesson';
 import { SafeAreaView } from 'react-native';
-import MyModal from './src/components/MyModal';
+import Navigation from './src/components/Navigation';
+// import MyModal from './src/components/MyModal';
 // import Pizza from './src/components/Pizza';
 // import Cafe from './src/components/Cafe';
 
@@ -14,7 +15,8 @@ import MyModal from './src/components/MyModal';
 function App() {
   return (
     <SafeAreaView >
-      <MyModal />
+      <Navigation />
+      {/* <MyModal /> */}
       {/* <Pizza /> */}
       {/* <MyPractice /> */}
       {/* <TuesdayLesson /> */}
