@@ -5,8 +5,11 @@ import React from 'react';
 // import MyButton from './src/components/Button';
 // import MyPractice from './src/components/Practice';
 // import TuesdayLesson from './src/components/TuesdayLesson';
-import { SafeAreaView } from 'react-native';
-import Navigation from './src/components/Navigation';
+import { Text, View } from 'react-native';
+import MyStack from './src/navigator/Navigator';
+import HomeScreen from './src/navigator/HomeScreen';
+import ProfileScreen from './src/navigator/ProfileScreen';
+// import Navigation from './src/components/Navigation';
 // import MyModal from './src/components/MyModal';
 // import Pizza from './src/components/Pizza';
 // import Cafe from './src/components/Cafe';
@@ -14,8 +17,11 @@ import Navigation from './src/components/Navigation';
 
 function App() {
   return (
-    <SafeAreaView >
-      <Navigation />
+    <View style={{flex:1}} >
+      <MyStack />
+      {/* <HomeScreen />
+      <ProfileScreen /> */}
+      {/* <Navigation /> */}
       {/* <MyModal /> */}
       {/* <Pizza /> */}
       {/* <MyPractice /> */}
@@ -25,7 +31,7 @@ function App() {
         < AnyClass />
         <MyComponent />
         <Class /> */}
-    </SafeAreaView>
+    </View>
   );
 }
 
